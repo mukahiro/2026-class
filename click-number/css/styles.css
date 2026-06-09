@@ -1,0 +1,42 @@
+#main {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+	font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.circle {
+	background-color: skyblue;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	font-size: 24px;
+	position: absolute;
+    cursor: pointer;
+}
+
+button.reload {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+input.btnnum {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    margin-right: 5px;
+    border: 1px solid #eee;
+}
