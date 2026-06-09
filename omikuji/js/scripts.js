@@ -32,6 +32,6 @@ document.getElementById("draw").addEventListener("click", function() {
             document.body.style.backgroundColor = `hsl(${colorDeg}, 100%, 50%)`;
             colorDeg = (colorDeg + 1) % 360;
             console.log(colorDeg);
-        }, 10)
+        }, 1)
     } 
 });
