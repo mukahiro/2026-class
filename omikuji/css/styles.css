@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    padding: 50px;
+    background-color: #eee;
+}
+
+#container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+    display: inline-block;
+    transition: all ease 0.5s;
+}
+
+#container.active {
+    animation-duration: 1s;
+    animation-name: vibe;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+button:hover {
+    background: #ffdd54;
+    transform: scale(1.1);
+}
+
+#result {
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+
+h1 {
+    margin: 0;
+}
+
+@keyframes vibe {
+  0%, 50% {
+    rotate: 10deg;
+  }
+  25%, 75% {
+    rotate: -10deg;
+  }
+}
